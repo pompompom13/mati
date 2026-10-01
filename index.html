@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MATI – грузинская кухня в Некрасовке</title>
+<meta name="description" content="MATI, ресторан грузинской кухни на ул. Маресьева, 7к4. Хинкали от 125 ₽, хачапури, домашнее вино, детское меню и банкеты. Ежедневно 11:00–23:00. +7 (980) 493-15-27">
+<meta name="theme-color" content="#f6efe4">
+<meta property="og:title" content="MATI – грузинская кухня в Некрасовке">
+<meta property="og:description" content="Хинкали, хачапури и домашнее вино. Ул. Маресьева, 7к4, ежедневно 11:00–23:00">
+<meta property="og:image" content="img/m093.webp">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Manrope:wght@400;500;700&family=Roboto+Condensed:wght@500;700&family=Neucha&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.className += ' js';</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "MATI, грузинская кухня",
+  "servesCuisine": "Грузинская",
+  "telephone": "+79804931527",
+  "address": {"@type": "PostalAddress", "streetAddress": "улица Маресьева, 7, корп. 4", "addressLocality": "Москва", "postalCode": "111677", "addressCountry": "RU"},
+  "geo": {"@type": "GeoCoordinates", "latitude": 55.711596, "longitude": 37.933673},
+  "openingHours": "Mo-Su 11:00-23:00",
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "289"}
+}
+</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="top__in">
+    <a href="#top" class="top__logo"><img src="img/wordmark.svg" alt="Mati – грузинская кухня" width="415" height="209"></a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#hits">Хиты</a>
+      <a href="#menu">Меню</a>
+      <a href="#hall">Зал и праздники</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <a href="tel:+79804931527" class="nav__phone">+7 (980) 493-15-27</a>
+    </nav>
+    <a href="tel:+79804931527" class="top__tel">+7 (980) 493-15-27</a>
+    <button class="burger" id="burger" aria-label="Меню навигации" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__grid">
+    <div class="hero__text">
+      <p class="hello" lang="ka">გამარჯობა!</p>
+      <h1 class="hero__title">Хинкали, хачапури <em>и&nbsp;тёплый приём</em> в&nbsp;Некрасовке</h1>
+      <p class="hero__lead">Сочные хинкали от&nbsp;125&nbsp;₽, аджарули с&nbsp;живым желтком и&nbsp;домашнее вино кувшином. Приходите всей семьёй: детям дадим раскраски и&nbsp;своё меню.</p>
+      <div class="hero__actions">
+        <a href="tel:+79804931527" class="btn btn--brown">Забронировать стол</a>
+        <a href="#menu" class="btn btn--ghost">Открыть меню</a>
+      </div>
+
+      <div class="day" id="day" aria-live="polite">
+        <div class="day__head">
+          <span class="day__state" id="dayState">Сегодня</span>
+          <span class="day__left" id="dayLeft">11:00–23:00</span>
+        </div>
+        <div class="day__bar"><span class="day__fill" id="dayFill"></span><span class="day__now" id="dayNow"></span></div>
+        <div class="day__scale"><span>11:00</span><span>15:00</span><span>19:00</span><span>23:00</span></div>
+      </div>
+    </div>
+
+    <div class="hero__pic">
+      <div class="arch arch--big"><img src="img/m055.webp" alt="Зал MATI: зелень под потолком, диваны и деревянные столы" fetchpriority="high"></div>
+      <div class="arch arch--small"><img src="img/m042.webp" alt="Хачапури по-аджарски с желтком"></div>
+      <p class="award">Лауреат<br><b>«Хорошего места»</b><br>2026</p>
+    </div>
+  </div>
+</section>
+
+<!-- FACTS -->
+<section class="facts">
+  <div class="wrap facts__in">
+    <p><b>5,0</b>289 оценок на&nbsp;Яндексе</p>
+    <p><b>125&nbsp;₽</b>за&nbsp;один хинкали</p>
+    <p><b>11–23</b>ежедневно, без выходных</p>
+    <p><b>С&nbsp;собой</b>доставка и&nbsp;самовывоз</p>
+  </div>
+</section>
+
+<!-- HITS -->
+<section class="hits" id="hits">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="label">Что заказать в&nbsp;первый раз</p>
+      <h2 class="h2">Хиты <em>нашего стола</em></h2>
+    </div>
+    <div class="dishes">
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m093.webp" alt="Хинкали на тарелке" loading="lazy"></div>
+        <h3>Хинкали</h3>
+        <p>С&nbsp;говядиной, бараниной, сыром или зеленью. Берите за&nbsp;хвостик и&nbsp;сначала выпейте бульон.</p>
+        <b>от 125&nbsp;₽ <small>/ шт</small></b>
+      </article>
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m042.webp" alt="Хачапури по-аджарски" loading="lazy"></div>
+        <h3>Хачапури по&#8209;аджарски</h3>
+        <p>Лодочка с&nbsp;сыром, сливочным маслом и&nbsp;желтком. Размешайте и&nbsp;макайте бортики.</p>
+        <b>680&nbsp;₽</b>
+      </article>
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m094.webp" alt="Мини-хинкали в ореховом соусе баже" loading="lazy"></div>
+        <h3>Мини-хинкали в&nbsp;баже</h3>
+        <p>Пять маленьких хинкали в&nbsp;ореховом соусе с&nbsp;гранатом.</p>
+        <b>980&nbsp;₽</b>
+      </article>
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m097.webp" alt="Шампиньоны под сырной шапкой" loading="lazy"></div>
+        <h3>Шампиньоны с&nbsp;сыром</h3>
+        <p>Под шапкой из&nbsp;двух сыров. Гости называют их&nbsp;«отдельным видом искусства».</p>
+        <b>610&nbsp;₽</b>
+      </article>
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m091.webp" alt="Хачапури по-имеретински" loading="lazy"></div>
+        <h3>Хачапури по&#8209;имеретински</h3>
+        <p>Круглый, тонкий, с&nbsp;тянущимся сыром внутри. Делите на&nbsp;компанию.</p>
+        <b>690&nbsp;₽</b>
+      </article>
+      <article class="dish reveal">
+        <div class="dish__pic"><img src="img/m078.webp" alt="Фирменный десерт MATI" loading="lazy"></div>
+        <h3>Фирменный десерт MATI</h3>
+        <p>Блинчик-мешочек с&nbsp;начинкой, перевязанный ниточкой. Подаём с&nbsp;ягодами.</p>
+        <b>450&nbsp;₽</b>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <div class="head head--row reveal">
+      <div>
+        <p class="label">Меню</p>
+        <h2 class="h2">Всё, что <em>готовим</em></h2>
+      </div>
+      <a class="btn btn--ghost btn--sm" href="https://eda.yandex.ru/r/mati_1752679091" target="_blank" rel="noopener">Заказать доставку</a>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Разделы меню">
+      <button role="tab" class="tab is-active" aria-selected="true" data-tab="dough">Хинкали и&nbsp;хачапури</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="hot">Горячее</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="cold">Закуски, салаты, супы</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="sweet">Десерты и&nbsp;пицца</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="drinks">Чай и&nbsp;напитки</button>
+      <button role="tab" class="tab" aria-selected="false" data-tab="wine">Вино и&nbsp;бар</button>
+    </div>
+    <div class="menu__body" id="menuBody" aria-live="polite"></div>
+    <p class="menu__note">Цены указаны в&nbsp;рублях. Если в&nbsp;зале цена отличается, верна та, что в&nbsp;меню у&nbsp;официанта.</p>
+  </div>
+</section>
+
+<!-- HALL -->
+<section class="hall" id="hall">
+  <div class="wrap hall__grid">
+    <div class="hall__text reveal">
+      <p class="label">Зал</p>
+      <h2 class="h2">Тихо, светло <em>и&nbsp;по&#8209;домашнему</em></h2>
+      <p class="lead">Мягкие диваны, деревянные столы и&nbsp;зелень под потолком. Музыка играет негромко, так что разговаривать можно не&nbsp;перекрикивая друг друга.</p>
+      <ul class="ticks">
+        <li>Детское меню, раскраски и&nbsp;игрушки</li>
+        <li>Вход доступен для колясок</li>
+        <li>Wi-Fi, парковка и&nbsp;велопарковка у&nbsp;входа</li>
+        <li>Подарочные сертификаты</li>
+      </ul>
+    </div>
+    <div class="hall__pics">
+      <figure class="hp hp--1 reveal"><img src="img/m053.webp" alt="Диваны и столы в зале" loading="lazy"></figure>
+      <figure class="hp hp--2 reveal"><img src="img/m028.webp" alt="Столик у окна с занавесками" loading="lazy"></figure>
+      <figure class="hp hp--3 reveal"><img src="img/m064.webp" alt="Бутылка Киндзмараули на столе" loading="lazy"></figure>
+    </div>
+  </div>
+
+  <div class="wrap feast">
+    <div class="feast__pics reveal">
+      <img src="img/m084.webp" alt="Накрытый банкетный стол с закусками" loading="lazy">
+      <img src="img/m085.webp" alt="Семейный праздник за длинным столом" loading="lazy">
+    </div>
+    <div class="feast__text reveal">
+      <p class="label">Праздники</p>
+      <h2 class="h2">Накроем <em>длинный стол</em></h2>
+      <p class="lead">Дни рождения, семейные ужины, небольшие банкеты. Расскажите, сколько вас и&nbsp;что любите, а&nbsp;мы соберём стол с&nbsp;пхали, хачапури и&nbsp;горячим.</p>
+      <div class="feast__btns">
+        <a href="tel:+79804931527" class="btn btn--brown">Позвонить</a>
+        <a href="https://wa.me/79804931527" target="_blank" rel="noopener" class="btn btn--ghost">Написать в&nbsp;WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="head head--row reveal">
+      <div>
+        <p class="label">Отзывы</p>
+        <h2 class="h2">Возвращаются <em>не&nbsp;один раз</em></h2>
+      </div>
+      <div class="score"><b>5,0</b><span>232 отзыва и&nbsp;289 оценок<br>на&nbsp;Яндекс Картах</span></div>
+    </div>
+    <div class="quotes">
+      <figure class="q reveal">
+        <blockquote>Фирменный салат Mati – отдельная любовь с&nbsp;первой вилки! Хинкали прекрасны, а&nbsp;шампиньоны на&nbsp;сковородке – отдельный вид кулинарного искусства.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 20 сентября</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Ходил с&nbsp;детьми, заказ приняли быстро и&nbsp;тепло, и&nbsp;было очень вкусно. Пока ждали, детям дали раскраски и&nbsp;игрушки.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 19 мая</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Наше небольшое мероприятие прошло изумительно. Уютно, прекрасное обслуживание и&nbsp;очень вкусная кухня. Есть детское меню.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 22 июня</span></figcaption>
+      </figure>
+      <figure class="q reveal">
+        <blockquote>Салат из&nbsp;хрустящих баклажанов – бомба, наверное, лучший, что я&nbsp;ела. одиннадцать из&nbsp;десяти. Музыка приглушённая, общаться комфортно.</blockquote>
+        <figcaption><b>Гость</b><span>Яндекс Карты · 1 июня</span></figcaption>
+      </figure>
+    </div>
+    <a class="more" href="https://yandex.ru/maps/org/mati/82493286793/reviews/" target="_blank" rel="noopener">Все отзывы на&nbsp;Яндекс Картах&nbsp;→</a>
+  </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+  <div class="wrap contacts__grid">
+    <div class="reveal">
+      <p class="label">Контакты</p>
+      <h2 class="h2">Ждём <em>в&nbsp;гости</em></h2>
+      <dl class="info">
+        <div><dt>Адрес</dt><dd>Москва, ул. Маресьева, 7, корп. 4<span class="sub">Остановка «12-й квартал Люберецких Полей», 240 м</span></dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79804931527">+7 (980) 493-15-27</a><span class="sub">звонки, WhatsApp и&nbsp;Telegram</span></dd></div>
+        <div><dt>Часы</dt><dd>Ежедневно 11:00–23:00</dd></div>
+      </dl>
+      <ul class="week" id="week" aria-label="Часы работы"></ul>
+      <div class="contacts__btns">
+        <a href="tel:+79804931527" class="btn btn--brown">Позвонить</a>
+        <a href="https://wa.me/79804931527" target="_blank" rel="noopener" class="btn btn--ghost">WhatsApp</a>
+        <a href="https://t.me/+79804931527" target="_blank" rel="noopener" class="btn btn--ghost">Telegram</a>
+        <a href="https://yandex.ru/maps/org/mati/82493286793/" target="_blank" rel="noopener" class="btn btn--ghost">Маршрут</a>
+      </div>
+    </div>
+    <div class="contacts__side reveal">
+      <figure class="facade">
+        <img src="img/m076.webp" alt="Вход в MATI с вывеской и гирляндой" loading="lazy">
+        <figcaption>Вечером ищите вывеску в&nbsp;огоньках и&nbsp;две туи у&nbsp;входа</figcaption>
+      </figure>
+      <div class="map">
+        <iframe title="MATI на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=37.933673%2C55.711596&z=16&pt=37.933673%2C55.711596%2Cpm2brm" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <img src="img/wordmark.svg" alt="Mati – грузинская кухня" class="footer__logo" loading="lazy">
+    <nav class="footer__nav" aria-label="Разделы">
+      <a href="#hits">Хиты</a><a href="#menu">Меню</a><a href="#hall">Праздники</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="footer__meta">
+      <a href="tel:+79804931527">+7 (980) 493-15-27</a>
+      <span>ул. Маресьева, 7, корп. 4 · 11:00–23:00</span>
+    </div>
+  </div>
+  <div class="wrap footer__legal">
+    <span>© MATI · грузинская кухня</span>
+    <span>Информация на&nbsp;сайте носит справочный характер и&nbsp;не&nbsp;является публичной офертой. Чрезмерное употребление алкоголя вредит вашему здоровью.</span>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Быстрые действия">
+  <a href="tel:+79804931527">Позвонить</a>
+  <a href="#menu">Меню</a>
+  <a href="https://eda.yandex.ru/r/mati_1752679091" target="_blank" rel="noopener">Доставка</a>
+</div>
+
+<script src="menu.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
